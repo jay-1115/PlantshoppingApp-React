@@ -81,6 +81,12 @@ body {
     z-index: 1;
 }
 
+.product-category-title{
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
 .product-title {
     font-weight: bold;
     margin-bottom: 10px;
@@ -153,6 +159,11 @@ body {
     
 }
 
+.btn-disabled {
+    opacity: 0.5; /* Reduce opacity to visually indicate disabled state */
+    cursor: not-allowed; /* Change cursor to indicate that the button is not clickable */
+}
+
 .luxury {
     display: flex;
     align-items: center;
@@ -164,6 +175,13 @@ body {
     color: white;
     display: flex;
 }
+
+.product_total_count {
+    position: absolute;
+    top: 23%;
+    left: 40%;
+}
+
 .cart_quantity_count{
     margin-top: 16px;
     /* background-color: red; */
@@ -172,12 +190,32 @@ body {
     font-size: 29px;
 
 }
+
 .plantname_heading{
    display: flex;
    align-items: center;
    justify-content: center;
     /* background-color: yellow; */
 }
+
+.upper-border {
+    border-bottom: 1px solid black;
+    height: 1px;
+    width: 25%;
+    margin: 0px auto;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.bottom-border {
+    border-bottom: 1px solid black;
+    height: 1px;
+    width: 25%;
+    margin: 0px auto;
+    display: inline-block;
+    padding-top: 10px;
+}
+
 .plant_heading{
     width: 400px;
     text-align: center;
